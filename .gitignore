@@ -1,0 +1,15 @@
+# ambiente
+.venv/
+__pycache__/
+*.pyc
+
+# segredo
+.env
+
+# os PDFs das normas: sao publicos e baixados do gov.br, nao versionados aqui.
+# O README diz onde pegar. Evita 14 MB de binario no repo.
+dados/*.pdf
+
+# o indice e gerado pelo ingest.py a partir dos PDFs
+indice.npy
+indice.json
